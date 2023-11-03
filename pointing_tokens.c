@@ -12,13 +12,9 @@ int main() {
     
     for(char *c=s; *c != NULL;c++){
         if(*c ==' '){
-            
             *c='\n';
-            
-            
         }
        
-        
     }
     
     printf("%s", s);
